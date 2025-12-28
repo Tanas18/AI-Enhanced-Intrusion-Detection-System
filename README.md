@@ -1,0 +1,95 @@
+<<<<<<< HEAD
+# AI-Enhanced Intrusion Detection System (IDS)
+
+## Project Description
+This project presents an **AI-Enhanced Intrusion Detection System (IDS)** designed to detect and classify malicious network traffic using machine learning techniques.  
+The system is based on a **Neural Network model** trained on the **CICIDS2017 dataset**, enabling it to distinguish between normal and malicious network flows with very high accuracy.
+
+Traditional Intrusion Detection Systems rely on static rules and signatures, which limits their ability to detect new or evolving attacks. This project demonstrates how **Artificial Intelligence** can significantly enhance network security by learning traffic behavior and detecting attacks automatically.
+
+---
+
+## Objectives
+- Understand the fundamentals of cybersecurity and intrusion detection
+- Apply machine learning techniques to network security
+- Preprocess real network traffic data
+- Train and evaluate a neural network classifier
+- Simulate real-time intrusion detection
+- Visualize detection results using a dashboard
+
+---
+
+## Dataset
+- **Name:** CICIDS2017  
+- **Source:** Canadian Institute for Cybersecurity  
+- **Description:**  
+  The dataset contains realistic network traffic including normal activity and multiple types of cyberattacks such as DoS, DDoS, and brute-force attacks. Each record represents a network flow described by statistical features.
+
+---
+
+## Technologies Used
+
+### Programming Language
+- Python 3.10
+
+### Libraries & Tools
+- NumPy
+- Pandas
+- Scikit-learn
+- TensorFlow / Keras
+- Joblib
+- Streamlit
+
+---
+
+## Project Structure
+
+AI_IDS/
+│
+├── data/
+│ ├── CICIDS2017.csv
+│ └── processed_data.pkl
+│
+├── preprocessing.py
+├── train_model.py
+├── evaluate_model.py
+├── realtime_detection.py
+├── dashboard.py
+├── model.h5
+├── AI_Enhanced_IDS_Report.pdf
+└── README.md
+
+---
+
+## File Description
+- **preprocessing.py**  
+  Cleans and preprocesses the dataset (handling missing values, normalization, label encoding).
+
+- **train_model.py**  
+  Trains a neural network model using the processed data and saves the trained model.
+
+- **evaluate_model.py**  
+  Evaluates the trained model using accuracy, precision, recall, F1-score, and confusion matrix.
+
+- **realtime_detection.py**  
+  Simulates real-time intrusion detection using generated network traffic features.
+
+- **dashboard.py**  
+  Streamlit-based dashboard that displays real-time detection alerts.
+
+- **model.h5**  
+  Saved trained neural network model.
+
+- **AI_Enhanced_IDS_Report.tex**  
+  Full academic report written in LaTeX.
+
+---
+
+## How to Run the Project
+
+### 1. Activate Virtual Environment
+```bash
+venv\Scripts\activate
+=======
+# AI_IDS
+>>>>>>> 29ff3e11d714792187250678a46f810a11ff951f
